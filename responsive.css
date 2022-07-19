@@ -1,0 +1,629 @@
+
+  /*ここからレスポンシブーーーーーーーーーーーーー*/
+
+/*タブレット表示ーーーーーーーーーーーーーーーー*/
+@media(max-width:1200px){
+    .main3-foto .main4-foto .main5-foto{
+      width: 89%;
+    }
+
+    .ww {
+      width: 47.8%;
+    }
+
+    .ww img{
+      width: 100%;
+    }
+    /*main8------------------------*/
+
+    .main-8-wrapper{
+      width: 89%;
+    }
+
+   .main-8-left{
+     width: 47.8%;
+   }
+
+   .main-8-right{
+     width: 47.8%;
+   }
+
+   /*main9-----------------------------*/
+   .main-9-wrapper{
+    width: 89%;
+  }
+
+ .main-9-left{
+   width: 47.8%;
+ }
+
+ .main-9-right{
+   width: 47.8%;
+ }
+
+ /*main10---------------------------------*/
+ .main-10-wrapper{
+  width: 89%;
+}
+
+.main-10-left{
+ width: 47.8%;
+}
+
+.main-10-right{
+ width: 47.8%;
+}
+/*main11 contents----------------------*/
+.contents{
+  width: 91.7%;
+  margin: 0 auto;
+}
+
+.xx{
+  width: 30%;
+}
+
+.ppap{
+  font-size: 1.2vw;
+}
+
+.on{
+  padding: 17px 72px;
+}
+
+
+
+/*main11 contents2----------------------*/
+.contents2-wrapper{
+  width: 92%;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents2-left{
+  width: 48%;
+  margin: 0;
+}
+
+.contents2-right{
+  width: 44%;
+  text-align: center;
+  margin-right: 20px;
+}
+
+/*main12---------------------------*/
+.main12-contents{
+  width: 93%;
+
+}
+
+.main12-contents a{
+  width: 18%;
+
+  display: block;
+}
+
+
+
+.footer-left-img{
+  display: block;
+    width: 100%;
+
+    padding: 0;
+    
+  }
+
+  .footer-left{
+    width: 34%;
+
+  }
+
+  .footer-right{
+    width: 66%;
+  }
+
+  .ftico{
+    width: 27%;
+ 
+    padding: 30% 0 0 10%;
+  }
+
+  .ftlogo{
+    width: 66%;
+    padding-left: 10%;
+  }
+
+  .footer-left p{
+    width: 65%;
+    padding-left: 10%;
+  }
+
+  .footer-icon{
+    padding-left: 10%;
+  }
+
+
+}
+
+@media(min-width:600px){
+  .main6-img2{
+    display: none;
+  }
+
+.mbwrapper{
+  display: none;
+}
+
+.menu-trigger{
+  display: none;
+}
+
+
+
+}
+
+
+/*スマホ表示ーーーーーーーーーーーーーーーーーー*/
+
+@media(max-width:599px){
+
+/*ヘッダーーーーーーーーーーーーーーーーーーーー*/
+
+  .header-contents{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-left {
+    width: 100%;
+    height: 175px;
+  }
+
+  .header-center{
+    width: 100%;
+    height: 245px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.center-top p{
+  padding:50px 0 0 0;
+}
+
+.block{
+  width:100px;
+  height: 8px;
+}
+
+.center-chiri{
+  padding:18px 0 10px 0;
+}
+
+  .center-logo{
+    width: 260px;
+    padding: 0 0 30px 0;
+  }
+
+  .header-right{
+    width: 100%;
+    height: 175px;
+  }
+
+  .center-nav{
+    display: none;
+  }
+
+  /*main---------------------------------*/
+  /*main3*/
+.main3-foto{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.ww{
+  width: 100%;
+}
+
+.ww p{
+  font-size: 3.2vw;
+  font-weight: bold;
+  padding: 10px 0 50px 0;
+  line-height: 1.9;
+}
+
+.main-3 h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  padding-bottom: 35px;
+}
+
+
+/*main4*/
+.main4-foto{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.main-4 h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  padding-bottom: 35px;
+}
+
+/*main5*/
+.main5-foto{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+}
+
+.main-5 h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  padding-bottom: 35px;
+}
+
+.main6-img1{
+  display: none;
+}
+
+.main-6-wrapper{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-6-title p{
+  font-size: 9px;
+}
+
+.main-6-text p{
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.05rem;
+}
+
+.main-6-title h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  padding-top: 90px;
+}
+
+.main6-gimp{
+  width: 71%;
+
+  margin: 0 auto;
+}
+
+.button{
+  padding-top: 37px;
+}
+
+.button a{
+  padding: 15px 80px;
+}
+
+/*スマトラサンバルの魅力ーーーーーーーーーー*/
+
+.main-7 h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  padding-bottom: 20px;
+}
+
+.main-7 p{
+  padding:0 0 30px 0;
+}
+ 
+
+
+.main-8-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin: 0 auto;
+  padding: 30px 0 0 0;  
+}
+
+.main-8-left{
+  width: 100%;
+}
+
+.main-8-right{
+ width: 100%;
+ margin-top: 25px;
+ margin-bottom: 55px;
+}
+
+.title-right{
+  font-size: 3.6vw;
+  font-weight: bold;
+}
+
+.main-8-right p{
+  font-size: 3.1vw;
+  font-weight: bold;
+}
+
+/*main9---------------------------*/
+.main-9-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin: 0 auto;
+  padding: 30px 0 0 0;  
+}
+
+.main-9-left{
+  width: 100%;
+}
+
+.main-9-right{
+ width: 100%;
+ margin-top: 25px;
+ margin-bottom: 55px;
+ order: 2;
+}
+
+.main-9-right p{
+  font-size: 3.1vw;
+  font-weight: bold;
+}
+
+/*main10-------------------------------*/
+
+.main-10-wrapper{
+  display: flex;
+  flex-direction: column;
+  width: 86%;
+  margin: 0 auto;
+  padding: 30px 0 0 0;  
+}
+
+.main-10-left{
+  width: 100%;
+}
+
+.main-10-right{
+ width: 100%;
+ margin-top: 25px;
+ margin-bottom: 55px;
+ order: 2;
+}
+
+.main-10-right p{
+  font-size: 3.1vw;
+  font-weight: bold;
+}
+
+/*main11---------------------*/
+.main-11-top h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  padding-bottom: 20px;
+}
+
+.main-11 p{
+  padding:0 0 30px 0;
+}
+
+.contents{
+  width: 82.8%;
+  flex-wrap:nowrap;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+
+.brend{
+  margin: 0;
+}
+
+.red{
+  padding-top: 50px;
+}
+
+.xx{
+  width: 48%;
+}
+
+.xx h2{
+  font-size: 3.4vw;
+  font-weight: normal;
+}
+
+.ppap{
+  font-size: 2.9vw;
+  font-weight: bold;
+}
+
+/*main11-contents2----------------*/
+.contents2-wrapper{
+  width: 86%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents2-left{
+  width: 100%;
+}
+
+.contents2-right{
+  width: 82%;
+  margin: 0 auto;
+}
+
+.contents2-right h3{
+  font-size: 3.4vw;
+  font-weight: normal;
+  padding-top: 30px;
+  padding-bottom: 32px;
+}
+
+.contents2-message{
+  font-size: 2.9vw;
+  letter-spacing: 00.05em;
+  font-weight: bold;
+  padding: 0;
+}
+
+.hosoku p{
+  padding: 55px 0 65px 0;
+}
+
+/*main12-contents*/
+
+.main-12-top h2{
+  font-weight: bold;
+  font-size: 4.2vw;
+  line-height: 1.3;
+  letter-spacing: 0.1em;
+  padding-bottom: 20px;
+}
+
+.main-12-top p{
+  padding:0 0 30px 0;
+}
+
+.main12-contents{
+  width: 86%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main12-contents a{
+  width:48%;
+}
+
+.cap p{
+  padding-top: 25px;
+  padding-bottom: 55px;
+}
+
+.main12 .on{
+  font-size: 3.6vw;
+}
+
+/*footer--------------------------------*/
+
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+  height: 1030px;
+}
+
+.footer-left{
+  width: 100%;
+  height: 38%;
+  border-bottom: 1px solid #ffffff;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 62%;
+}
+
+.footer-right-top{
+  width: 100%;
+  height: 61%;
+}
+
+.footer-right-bottom{
+  width: 100%;
+  height: 39%;
+  display: flex;
+  align-items: center;
+}
+
+.ftico{
+  padding: 10% 0 0 10%;
+  width: 23%;
+}
+
+.ftlogo{
+  width: 45%;
+}
+
+.footer-left p{
+  font-size: 3vw;
+  padding-bottom: 5px;
+}
+
+.footer-icon a{
+  width: 60px;
+}
+
+.footer-right-top li a{
+  display: inline-block;
+  font-size: 3.5vw;
+  padding-bottom: 35px;
+}
+
+.footer-right-top{
+  display: flex;
+  align-items: center;
+}
+
+.footer-right-bottom-wrapper p{
+  font-size: 3vw;
+  letter-spacing: 0.1em;
+}
+
+.footer-right-bottom-wrapper h3{
+  font-size: 3vw;
+}
+
+.qq{
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  padding: 10px 0;
+}
+
+.ii{
+  padding: 0;
+}
+
+.footer-right-bottom-wrapper h3{
+  padding-top: 32px;
+}
+
+.footer-right-bottom-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 0 0 40px;
+
+}
+
+.footer-gimp{
+  display: flex;
+  align-items: center;
+}
+}
